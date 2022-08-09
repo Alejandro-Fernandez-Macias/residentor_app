@@ -82,7 +82,7 @@ const SearchFilters = () => {
                                 ))}
                                 {!loading && !locationData?.length && (
                                     <Flex justifyContent="center" alignItems="center" flexDir="column" marginTop="5" marginBottom="5">
-                                        <Image src={noresults} />
+                                        <Image src={noresults} alt="no results"/>
                                         <Text fontSize="xl" marginTop="3">
                                             Waiting to Search !
                                         </Text>
